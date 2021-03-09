@@ -1,0 +1,350 @@
+/* CSS RESET */
+
+@font-face {
+    font-family: 'poori';
+    src: url(fonts/BYekan.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'bardi';
+    src: url(fonts/YekanWeb-Regular.woff) format('woff');
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    margin: 0 auto;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+body {
+    background: #fdfdfd;
+    font-family: 'poori';
+    direction: rtl;
+}
+
+a {
+    text-decoration: none!important;
+    transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+}
+
+li {
+    list-style: none;
+}
+
+ :focus {
+    outline: none;
+}
+
+
+/*  */
+
+
+/*
+start 
+ */
+
+
+/*  */
+
+#main {
+    width: 100%;
+    height: auto;
+}
+
+.header-nav {
+    width: 100%;
+    height: 130px;
+    background: rgb(231, 231, 231);
+}
+
+.header-nav .search {
+    float: left;
+    margin-left: 30px;
+}
+
+.header-nav .search button {
+    float: left;
+    color: #BDC3C7;
+    margin: 48px 0 0 100px;
+    padding: 10px 11px;
+    border: .5px solid #95A5A6;
+    background: #34495E;
+    border-radius: 10px;
+}
+
+.header-nav .search button:hover {
+    background: #fdfdfd;
+    color: #2C3E50;
+    border: .5px solid #95A5A6;
+    transition: .4s;
+}
+
+.header-nav .search form {
+    border: .5px solid #95A5A6;
+    border-radius: 8px;
+    direction: rtl;
+    margin: 48px 0 0 2px;
+    float: left;
+    padding: 6px 0;
+    background: #34495E;
+    color: #ff9;
+}
+
+.header-nav .search form input {
+    width: 200px;
+    background: none;
+    font: 12px 'poori', Tahoma;
+    text-align: right;
+    margin-top: 3px;
+    direction: rtl;
+    padding: 2px 7px;
+    border: none;
+    color: #fdfdfd;
+}
+
+.header-nav .logo {
+    width: 170px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.header-nav .logo img {
+    width: 170px;
+    height: 130px;
+}
+
+
+/* .header-nav .right_header {
+    width: 40%;
+    float: right;
+    height: 100%;
+    margin: 0 30px 0 0;
+}
+
+.header-nav .right_header a {
+    width: 18%;
+    float: right;
+    color: #34495E;
+    margin: 33px 10px 0 0;
+}
+
+.header-nav .right_header a .fa {
+    height: 100%;
+    float: right;
+    margin-right: 5px;
+    display: block;
+    margin-top: 15px;
+}
+
+.header-nav .right_header a h3 {
+    float: right;
+    margin: 20px 10px 0 0;
+    letter-spacing: .5px;
+}
+
+.header-nav .right_header a:hover {
+    color: #2C3E50;
+} */
+
+.header-nav .right_header {
+    width: 40%;
+    float: right;
+    height: 100%;
+    margin: 0 30px 0 0;
+}
+
+.header-nav .right_header .hvr-float-shadow {
+    width: 60px;
+    float: right;
+    color: #34495E;
+    font: 15px #34495E 'poori', tahoma;
+    margin: 0 30px 0 0;
+}
+
+.header-nav .right_header a .fa {
+    margin: 0 10px;
+}
+
+.header-nav .right_header a h3 {
+    text-align: center;
+    margin-top: 10px;
+    font: 15px #34495E 'bardi', tahoma;
+}
+
+.header-nav .right_header a:last-child .fa {
+    color: #2980B9;
+}
+
+.header-nav .right_header a:hover {
+    color: #2C3E50;
+}
