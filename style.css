@@ -264,6 +264,12 @@ start
      border: none;
      color: #fdfdfd;
  }
+ 
+ ::placeholder {
+     color: #fdfdfd;
+     opacity: 1;
+     /* Firefox */
+ }
  /* right-header */
  
  .header-nav .right-header {
