@@ -237,11 +237,6 @@ start
      transition: .4s;
  }
  
- .header-nav .search:hover form {
-     color: #2C3E50;
-     transition: .4s;
- }
- 
  .header-nav .search form {
      border-radius: 8px;
      direction: rtl;
@@ -249,7 +244,6 @@ start
      float: left;
      padding: 7px 1px;
      background: #094d84;
-     color: #ff9;
      border: .5px solid #094d84;
  }
  
@@ -262,13 +256,18 @@ start
      direction: rtl;
      padding: 2px 7px;
      border: none;
-     color: #fdfdfd;
+     color: #f6f6f6;
  }
  
  ::placeholder {
-     color: #fdfdfd;
+     color: #BDC3C7;
      opacity: 1;
      /* Firefox */
+ }
+ 
+ .header-nav .search:hover form {
+     color: #2C3E50;
+     transition: .4s;
  }
  /* right-header */
  
