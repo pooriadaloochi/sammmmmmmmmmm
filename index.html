@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/hover.css">
     <link rel="stylesheet" type="text/css" href="fonts/BYekan.woff">
     <link rel="stylesheet" type="text/css" href="fonts/YekanWeb-Regular.woff">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     <!-- font icons-->
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome.css">
@@ -19,7 +20,28 @@
     <!-- javascript files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- title -->
     <title>sam&poori_group</title>
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            // autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            // },
+            slidesPerView: 4,
+            spaceBetween: 35,
+            freeMode: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
 </head>
 
 <body>
@@ -67,48 +89,481 @@
             <div class="logo">
                 <a href="#"> <img src="img/57301012.jpg" alt=""></a>
             </div>
-
-
         </header>
         <div class="clear"></div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- 1slider -->
+                <div class="swiper-slide"><img src="img/57301012.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>The Shawshank Redemption (1994)</h1>
+                        <p class="content-details">
+                            <ul>
+                                <h1>اطلاعات فیلم</h1>
+                                <li>کارگردان : کریستوفر نولان</li>
+                                <li>نویسنده : کریستوفر نولان</li>
+                                <li>کشور : ایالات متحده آمریکا</li>
+                                <li>زبان : انگلیسی</li>
+                                </br>
+                                <li>تاریخ تولید : 2008/2/8</li>
+                                <li>ژانر : اکشن- ماجراجویی</li>
+                            </ul>
+                            <ul>
+                                <h1>بازیگران فیلم</h1>
+                                <li>کریستین بیل</li>
+                                <li>هیث بجر</li>
 
-        <section id="metro-box">
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </ul>
 
-        </section>
-        <div class="welearn-container">
-            <div class="welearn-post">
-                <div class="ourpost">
-                    <h3></h3>
-                    <div class="demo">
-                        <ul>
-
-                        </ul>
+                        </p>
                     </div>
                 </div>
+                <!-- slider2 -->
+                <div class="swiper-slide"><img src="images/marlonjpg.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1><b></b>The Godfather (1972)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
 
-                <div class="clear"></div>
-                <article class="post">
-                    <header>
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
 
-                    </header>
+                    </div>
+                </div>
+                <!-- slider3 -->
+                <div class="swiper-slide"><img src="images/The Godfather2 .jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1><b>The Godfather: Part II (1974)</b></h1>
 
-                    <footer>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
 
-                    </footer>
-                </article>
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <!-- slider4 -->
+                <div class="swiper-slide"><img src="images/download.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>The Dark Knight (2008)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- slider5 -->
+                <div class="swiper-slide"><img src="images/12 Angry Men.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>12 Angry Men (1957)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="swiper-slide"><img src="images/shidler.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>Schindler's List</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- slider7 -->
+                <div class="swiper-slide"><img src="images/lord.jpeg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>The Lord of the Rings: The Return of the King (2003)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- slider8 -->
+                <div class="swiper-slide"><img src="images/pulp.png" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>Pulp Fiction (1994)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/The Good, the Bad and the Ugly .png" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>The Good, the Bad and the Ugly (1966)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/forest.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>Forrest Gump (1994)</h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="swiper-slide"><img src="images/fight.jpg" alt="">
+                    <a class="playtrailer" href="#">
+                        <div class="fa fa-play fa-1x"></div>
+                    </a>
+                    <div class="details">
+                        <h1>Fight Club (1999) </h1>
+                        <h2><b>اطلاعات</b></h2>
+                        <ul>
+                            <li>کارگردان : کریستوفر نولان</li>
+                            <li>نویسنده : کریستوفر نولان</li>
+                            <li>کشور : ایالات متحده آمریکا</li>
+                            <li>زبان : انگلیسی</li>
+                            <li>تاریخ تولید : 2008/2/8</li>
+                            <li>ژانر : اکشن- ماجراجویی</li>
+                        </ul>
+                        <div class="seccond_header-details">
+                            <h2><b>بازیگران </b></h2>
+                            <h3><b>خلاصه داستان</b></h3>
+                        </div>
+                        <ul class="seccond-details">
+                            <li>کریستین بیل</li>
+                            <li>هیث بجر</li>
+                            <li>گری اولدمن</li>
+                            <li>
+                                <a href="#">
+                                    <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+                        <ul class="seccond-details" id="discription">
+                            <p>این فیلم پس از موفقیت درخشان فیلم پدرخوانده و در ادامهٔ آن ساخته شدآ</p>
+                            <a href="#">
+                                <div class="fa fa-play fa-1x"></div>نمایش بیشتر</a>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
             </div>
-            <aside class="left-sidebar">
-                <section class="sidebox">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </section>
-            </aside>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
+    </div>
+
+
+
+
+    <section id="metro-box">
+
+    </section>
+    <div class="welearn-container">
+        <div class="welearn-post">
+            <div class="ourpost">
+                <h3></h3>
+                <div class="demo">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <article class="post">
+                <header>
+
+                </header>
+
+                <footer>
+
+                </footer>
+            </article>
+        </div>
+        <aside class="left-sidebar">
+            <section class="sidebox">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+        </aside>
+    </div>
     </div>
     <div class="clear"></div>
     <footer class="footer-nav">
