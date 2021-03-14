@@ -233,58 +233,51 @@ start
 /* search box */
 
 .header-nav .search {
-    width: 250px;
+    width: 350px;
     height: auto;
     float: left;
     margin-left: 80px;
     margin-top: 28px;
 }
 
-.header-nav .search button {
-    float: left;
-    color: #BDC3C7;
-    padding: 9px 11px;
-    background: #2980B9;
-    border-radius: 10px;
-}
-
-.header-nav .search:hover button {
-    background: #094d84;
-    color: #cdd7e2;
-    transition: .4s;
-}
-
-.header-nav .search form {
-    border-radius: 8px;
+.header-nav .search .form-outline {
+    width: 220px;
     direction: rtl;
     margin: 0 0 0 3px;
     float: left;
-    padding: 7px 1px;
+    padding: 5px;
     background: #094d84;
-    border: .5px solid #094d84;
+    border: 3.5px solid #2980B9;
+    border-radius: 13px;
 }
 
-.header-nav .search form input {
-    width: 200px;
+.header-nav .search .form-outline input {
+    width: 150px;
+    height: 20px;
     background: none;
     font: 12px 'poori', Tahoma;
     text-align: right;
     margin-top: 3px;
     direction: rtl;
-    padding: 2px 7px;
+    padding: 0 7px;
     border: none;
-    color: #f6f6f6;
+    color: #fdfdfd;
+    right: -100;
 }
 
- ::placeholder {
+.header-nav .search button {
+    float: left;
     color: #BDC3C7;
-    opacity: 1;
-    /* Firefox */
+    background: none;
+    border: none;
+    margin-top: 2px;
 }
 
-.header-nav .search:hover form {
-    color: #2C3E50;
+.header-nav .search:hover button {
+    background: #094d84;
+    color: #fdfdfd;
     transition: .4s;
+    border: none;
 }
 
 
@@ -351,29 +344,29 @@ start
 /* swiper */
 
 .all {
-    height: 360px;
+    height: 330px;
     position: relative;
 }
 
 .slider {
     width: 100%;
-    height: 250px;
+    height: 220px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    background: #dcebf1;
 }
 
 .swiper-container {
     width: 92%;
-    height: 360px;
+    height: 300px;
     margin-top: 70px;
-    background: #dcebf1;
     position: absolute;
-    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
+    overflow: hidden !important;
 }
 
 .swiper-slide {
@@ -393,18 +386,25 @@ start
     -webkit-align-items: center;
     align-items: center;
     border-radius: 7px;
-    overflow: hidden !important;
-    /* margin-top: 150px; */
+    margin-top: 10px;
+    /* padding: 0 20px !important; */
 }
 
 .swiper-slide img {
     width: 90%;
-    height: 90%;
+    height: 92%;
     border-radius: 7px;
     opacity: 0.6;
     object-fit: fill;
     position: absolute;
+    margin-bottom: 5px;
 }
+
+
+/* 
+.swiper-slide .swiper-slide-active {
+    opacity: 1;
+} */
 
 .swiper-slide:hover img {
     opacity: 1;
@@ -564,32 +564,30 @@ start
 }
 
 .swiper-button-next {
-    background: rgba(65, 61, 61, 0.315);
-    padding: 11px 17px 11px 21px;
+    background: rgba(65, 61, 61, 0);
     border-radius: 50px;
-    color: #fdfdfd;
-    border: 2px solid #fdfdfd;
+    color: #3498DB;
+    border: 4px solid #3498DB;
 }
 
 .swiper-button-prev {
     background: rgba(65, 61, 61, 0.315);
-    padding: 11px 21px 11px 17px;
     border-radius: 50px;
-    color: #fdfdfd;
-    border: 2px solid #fdfdfd;
+    color: #3498DB;
+    border: 4px solid #3498DB;
     margin-top: 50px;
 }
 
 .swiper-button-next:hover {
-    background: #fdfdfd;
-    color: #c99393;
-    border: 2px solid #c99393;
+    background: #3498db86;
+    color: #fdfdfd;
+    border: 4px solid #fdfdfd;
     transition: .5s;
 }
 
 .swiper-button-prev:hover {
-    background: #fdfdfd;
-    color: #c99393;
-    border: 2px solid #c99393;
+    background: #3498db86;
+    color: #fdfdfd;
+    border: 4px solid #fdfdfd;
     transition: .5s;
 }

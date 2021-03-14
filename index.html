@@ -34,13 +34,20 @@
         <header class="header-nav">
 
             <div class="search">
-                <button type="submit"> <div class="fa fa-search fa-1x"></div></button>
 
-                <form action="" method="">
+                <div class="form-outline">
+                    <button type="submit"> <div class="fa fa-search fa-1x"></div></button>
+                    <input type="search" id="form1" class="form-control" placeholder="جستجو کنید... " onfocus="this.placeholder='همه فیلم ها را از ما بخواهید'" onblur="this.placeholder='جستجو فیلم مورد نظر'">
+                </div>
+
+            </div>
+
+            <!-- <form action="" method="">
+                    <button type="submit"> <div class="fa fa-search fa-1x"></div></button>
                     <input type="text" name="" value="" placeholder="جستجو کنید... " onfocus="this.placeholder='همه فیلم ها را از ما بخواهید'" onblur="this.placeholder='جستجو فیلم مورد نظر'">
 
-                </form>
-            </div>
+                </form> -->
+
             <div class="right-header">
                 <a href="#" class="hvr-float-shadow">
                     <img src="icon/iconfinder_Hamburger_Round_657905.svg" alt="">
@@ -587,8 +594,8 @@
     <script>
         var swiper = new Swiper('.swiper-container', {
             // autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
+            //     delay: 2500,
+            //     disableOnInteraction: false,
             // },
             slidesPerView: 5,
             spaceBetween: 70,
