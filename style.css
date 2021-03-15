@@ -237,7 +237,7 @@ start
     height: auto;
     float: left;
     margin-left: 80px;
-    margin-top: 28px;
+    margin-top: 38px;
 }
 
 .header-nav .search .form-outline {
@@ -287,7 +287,7 @@ start
     width: 40%;
     float: right;
     height: 100%;
-    margin: 0 30px 0 0;
+    margin: 15px 30px 0 0;
 }
 
 .header-nav .right-header .hvr-float-shadow {
@@ -576,22 +576,23 @@ start
   */
 
 .swiper-button-next {
-    color: #3498DB;
+    color: #2C3E50;
+    margin-left: 215px;
 }
 
 .swiper-button-prev {
-    color: #3498DB;
+    color: #34495E;
     margin-bottom: 50px;
     margin-right: 215px;
 }
 
 .swiper-button-next:hover {
-    color: #fdfdfd;
+    color: #2980B9;
     transition: .5s;
 }
 
 .swiper-button-prev:hover {
-    color: #fdfdfd;
+    color: #2980B9;
     transition: .5s;
 }
 
@@ -647,4 +648,105 @@ start
 }
 
 
-/*     background: #094d84; */
+/*  Genre   */
+
+
+/*  Genre   header */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .genre {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .genre header {
+    width: 100%;
+    height: 70px;
+}
+
+.container .genre header .genre_h1 {
+    width: 130px;
+    float: right;
+    border-right: 4px solid #C0392B;
+}
+
+.container .genre header h1 {
+    float: right;
+    font: 27px 'bardi', Tahoma;
+    line-height: 1.2;
+    padding: -10px 8px 0 0;
+    margin-right: 20px;
+    color: #2C3E50;
+}
+
+.container .genre header .genre_h1 h1:hover b {
+    color: #2980B9;
+}
+
+.container .genre header h3 {
+    padding: 4px 0;
+    float: left;
+    font: 18px 'bardi', Tahoma;
+    margin: 16px 25px 0 0;
+    color: #2C3E50;
+}
+
+.container .genre header h3:hover {
+    border-bottom: 2px solid #C0392B;
+    border-top: 2px solid #C0392B;
+    padding: -4px 0;
+    transition: .2s;
+    color: #2980B9;
+}
+
+
+/*  Genre   */
+
+
+/*  Genre   post */
+
+.post_genre {
+    width: 100%;
+    height: 500px;
+    background: #ff9;
+    margin-top: 30px;
+}
+
+.post_genre .post_genre_ul {
+    width: 100%;
+}
+
+.post_genre .post_genre_ul li {
+    width: 22%;
+    margin: 20px;
+    float: right;
+    background: #ECF0F1;
+}
+
+.post_genre .post_genre_ul li:last-child {
+    margin: 20px 0 20px 20px;
+}
+
+.post_genre .post_genre_ul li .post_genre_ul_a {
+    width: 100%;
+}
+
+.post_genre .post_genre_ul li .post_genre_ul_a img {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.post_genre .post_genre_ul li .post_genre_ul_a h6 {
+    /* font: 18px 'bardi', Tahoma rgb(160, 175, 28); */
+    text-align: center
+}
+
+.post_genre .post_genre_ul li .post_genre_ul_a h1 {
+    font: 23px 'bardi', Tahoma #bfce40 !important;
+    text-align: center
+}
