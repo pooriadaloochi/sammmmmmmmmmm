@@ -678,7 +678,7 @@ start
     float: right;
     font: 27px 'bardi', Tahoma;
     line-height: 1.2;
-    padding: -10px 8px 0 0;
+    padding: -10x 8px 2px 0;
     margin-right: 20px;
     color: #2C3E50;
 }
@@ -692,6 +692,7 @@ start
     font: 18px 'bardi', Tahoma;
     margin: 16px 25px 0 0;
     color: #2C3E50;
+    padding-bottom: 5px;
 }
 
 .container .genre header h3:hover {
@@ -711,41 +712,148 @@ start
 
 .post_genre {
     width: 100%;
-    height: 500px;
+    height: 800px;
     margin-top: 30px;
 }
 
 .post_genre .post_genre_ul {
     width: 100%;
+    height: 380px;
 }
 
 .post_genre .post_genre_ul li {
-    width: 22%;
+    width: 22.3%;
+    height: 338px;
     margin: 20px;
     float: right;
     background: #ECF0F1;
+    border-radius: 7px;
 }
 
-.post_genre .post_genre_ul li:last-child {
+.post_genre .post_genre_ul li:first-child {
     margin: 20px 0 20px 20px;
 }
 
+.post_genre .post_genre_ul li:last-child {
+    margin: 20px 20px 20px 0;
+}
+
+.post_genre .post_genre_ul li:hover img {
+    transform: scale(1.05);
+    transition: .4s;
+}
+
 .post_genre .post_genre_ul li .post_genre_ul_a {
-    width: 100%;
+    width: 248.5px;
+    height: 338px;
+    float: right;
 }
 
 .post_genre .post_genre_ul li .post_genre_ul_a img {
-    width: 200px;
-    height: 300px;
-    margin: 20px;
+    width: 180px;
+    height: 220px;
+    margin: 30px 34px 0 34px;
+    border-radius: 7px;
 }
 
 .post_genre .post_genre_ul li .post_genre_ul_a h6 {
-    /* font: 18px 'bardi', Tahoma rgb(160, 175, 28); */
-    text-align: center
+    font: 13px 'bardi', Tahoma;
+    text-align: center;
+    color: #2C3E50;
 }
 
 .post_genre .post_genre_ul li .post_genre_ul_a h1 {
-    font: 23px 'bardi', Tahoma #bfce40 !important;
-    text-align: center
+    font: 14px 'bardi', Tahoma;
+    text-align: center;
+    color: #2C3E50;
+}
+
+.post_genre .post_genre_ul li .post_genre_ul_a h3 {
+    font: 11px 'bardi', 'poori', Tahoma;
+    text-align: center;
+    color: #2C3E50;
+}
+
+
+/* post */
+
+.post {
+    width: 100%;
+    height: 380px;
+    background: #dcebf1;
+}
+
+.post .img_box {
+    width: 280px;
+    height: 380px;
+    float: right;
+    margin: 80px 150px 50px 20px;
+    background: #fdfdfd;
+    border-radius: 5px;
+}
+
+.post .img_box img {
+    width: 240px;
+    height: 330px;
+    border-radius: 5px;
+    margin: 19px 20px;
+}
+
+.post .details {
+    width: 900px;
+    float: right;
+    margin: 80px 30px;
+}
+
+.post .details h1 {
+    width: 100%;
+    float: right;
+    font: 28px 'bardi', tahoma;
+    color: #2C3E50;
+}
+
+.post .details h6 {
+    width: 70%;
+    float: right;
+    font: 15px 'bardi', tahoma;
+    color: #2C3E50;
+}
+
+.post .details h5 {
+    width: 70%;
+    float: right;
+    font: 13px 'bardi', tahoma;
+    color: #2C3E50;
+    margin-top: 20px;
+}
+
+.post .details p {
+    width: 70%;
+    float: right;
+    font: 11px 'bardi', tahoma;
+    color: #2C3E50;
+}
+
+.post .details .circle {
+    width: 150px;
+    height: 150px;
+    background: #C0392B;
+    float: left;
+    border-radius: 100%;
+    margin: 50px 0 0 100px;
+    border-radius: 3px solid #E74C3C;
+}
+
+.post .details .circle h3 {
+    color: #fdfdfd;
+    text-align: center;
+    margin-top: 60px;
+    font: 20px 'poori', tahoma;
+}
+
+.post .details .circle h6 {
+    color: #fdfdfd;
+    text-align: center;
+    margin: 10px 20px;
+    font: 12px 'bardi', tahoma;
 }
