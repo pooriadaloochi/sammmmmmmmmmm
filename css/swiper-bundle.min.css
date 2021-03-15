@@ -200,7 +200,6 @@
 .swiper-container-rtl .swiper-button-next {
     left: 10px;
     right: auto;
-    padding: 29px;
 }
 
 .swiper-button-prev:after,
