@@ -810,6 +810,7 @@ start
     float: right;
     font: 28px 'bardi', tahoma;
     color: #2C3E50;
+    text-shadow: 1px 1px;
 }
 
 .post .details h6 {
@@ -834,13 +835,88 @@ start
     color: #2C3E50;
 }
 
+.clear {
+    clear: left;
+}
+
+
+/* buttons */
+
+.post .details .post_buttons {
+    width: 500px;
+    float: right;
+    margin-top: 10px;
+}
+
+.post .details .buy_download {
+    width: 45px;
+    height: 45px;
+    float: right;
+    border: none;
+    background: #fdfdfd;
+    border-radius: 100%;
+}
+
+.post .details .buy_download img {
+    width: 30px;
+    height: 20px;
+}
+
+.post .details .thriller {
+    width: 45px;
+    height: 45px;
+    float: right;
+    border: none;
+    background: #fdfdfd;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.post .details .thriller img {
+    width: 32px;
+    height: 30px;
+    margin: 7px 1px;
+}
+
+.post .details .like {
+    width: 45px;
+    height: 45px;
+    float: right;
+    border: none;
+    background: #fdfdfd;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.post .details .like img {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.post .details .share_link {
+    width: 45px;
+    height: 45px;
+    float: right;
+    border: none;
+    background: #fdfdfd;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.post .details .share_link img {
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+}
+
 .post .details .circle {
     width: 150px;
     height: 150px;
     background: #C0392B;
     float: left;
     border-radius: 100%;
-    margin: 50px 0 0 100px;
+    margin: -20px 0 0 100px;
     border-radius: 3px solid #E74C3C;
 }
 
